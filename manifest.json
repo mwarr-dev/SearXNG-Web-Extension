@@ -2,14 +2,14 @@
   "manifest_version": 2,
   "name": "SearXNG — Privacy Search Engine",
   "version": "1.5",
-  "author": "Erghel",
+  "author": "mwarr-dev",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
   "icons": {
     "48": "searxng48.webp"
   },
   "browser_action": {
-    "default_title": "SearXNG"
+    "default_title": "SearXNG - Semi-private"
   },
   "browser_specific_settings": {
     "gecko": {
@@ -20,9 +20,9 @@
     "search_provider": {
       "name": "SearXNG",
       "keyword": "@searxng, @searx, @sx",
-      "search_url": "https://searx.be/search?q={searchTerms}",
+      "search_url": "https://s.texexus.com/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
-      "suggest_url": "https://searx.be/autocompleter?q={searchTerms}",
+      "suggest_url": "https://s.texexus.com/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
